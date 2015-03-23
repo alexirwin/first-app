@@ -5,6 +5,6 @@ class ApplicationController < ActionController::Base
   
   #The following three lines were added per Bloc reommendations (Submission "Deploy to Heroku") to create a default blank page on the Heroku server
   def hello
-      render text: "<h1>Hello</h1><p>Welcome home.  This was created in the ApplicationController file in app/controllers/application_controller.rb. </p>"
+      render text: "<h1>Hello</h1><p>Welcome home.</p>"
       end
 end
